@@ -12,7 +12,8 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     .3rem;
+$spacing-unit-lg: .3rem;
+$spacing-unit:     .15rem;
 
 $text-color:       #ddd;
 $text-color-light: lighten($text-color, 35%);
@@ -50,8 +51,8 @@ $on-laptop:        800px;
 // Use media queries like this:
 @include media-query($on-palm) {
      .wrapper {
-         padding-right: calc($spacing-unit / 2);
-         padding-left: calc($spacing-unit / 2);
+         padding-right: $spacing-unit;
+         padding-left: $spacing-unit;
      }
  }
 
