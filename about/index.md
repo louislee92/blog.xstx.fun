@@ -57,6 +57,9 @@ font-weight: bold; font-size: 150%; margin-right: .1rem;
 .item1 {
 background: rgba(255,255,255,0.1);padding: .1rem; margin-bottom: .1rem;
 }
+.item1 p:last-child {
+margin-bottom: 0;
+}
 </style>
 
 
@@ -138,6 +141,19 @@ $("#xstx_video").height(height);
 <p>摊位号：E2</p>
 </div>
 
+<div class="item1">
+<p>2021年12月26日 南京THO</p>
+<p>金陵幻梦行</p>
+<p>地点：南京市 稻香音乐空间</p>
+<p>摊位号：C2</p>
+</div>
+
+<div class="item1">
+<p>2023年5月3日 上海CP29</p>
+<p>上海CP29</p>
+<p>地点：上海市 国际会展中心</p>
+<p>摊位号：壹丙45</p>
+</div>
 
 # 社团主要成员
 
